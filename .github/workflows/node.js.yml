@@ -32,5 +32,8 @@ jobs:
     - name: Install Retire.js
       run: npm install -g retire
       
+    - name: NPM install
+      run: npm install
+      
     - name: Run Retire.js
       run: retire
